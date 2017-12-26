@@ -1,0 +1,35 @@
+body{
+  background-color: #F2F1EF;
+}
+.App {
+  text-align: center;
+  margin: 10%;
+  font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+
+}
+h4{
+  margin-top: 3%;
+  font-size: 16px;
+  text-align: center;
+}
+
+button{
+  margin: 0 0 0.5em 2em;
+}
+
+input {
+  padding: 5px 0;
+  margin-left: 20px;
+  width: 20%;
+  margin-bottom: 3%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
