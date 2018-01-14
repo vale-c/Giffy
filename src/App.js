@@ -17,7 +17,7 @@ class App extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    const api_key = 'dc6zaTOxFJmzC';
+    const api_key = 'N3IpbQlrn5MY7Da4Hv2fNItoA7mU92OQ';
     const url = `http://api.giphy.com/v1/gifs/search?q=${this.state.term}&api_key=${api_key}`;
     fetch(url)
       .then(response => response.json())
