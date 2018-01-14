@@ -28,10 +28,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1> Welcome to the Gif Finder! </h1>
+      <h1> Welcome to Giffy! </h1>
         <form onSubmit={this.handleSubmit}>
           <input value={this.state.term} onChange={this.onChange} />
-          <Button bsStyle="primary" bsSize="large" active>Search</Button>
+          <Button bsStyle="primary" bsSize="x-small" active>Search</Button>
         </form>
         <img src={this.state.img} className="img-responsive center-block" alt={this.state.term} />
         <h4>...have fun finding a crazy meme! </h4>
